@@ -71,23 +71,23 @@ public class ImagePickerDelegate
         implements PluginRegistry.ActivityResultListener,
         PluginRegistry.RequestPermissionsResultListener {
     @VisibleForTesting
-    static final int REQUEST_CODE_CHOOSE_IMAGE_FROM_GALLERY = 2342;
+    static final int REQUEST_CODE_CHOOSE_IMAGE_FROM_GALLERY = 12342;
     @VisibleForTesting
-    static final int REQUEST_CODE_TAKE_IMAGE_WITH_CAMERA = 2343;
+    static final int REQUEST_CODE_TAKE_IMAGE_WITH_CAMERA = 12343;
     @VisibleForTesting
-    static final int REQUEST_EXTERNAL_IMAGE_STORAGE_PERMISSION = 2344;
+    static final int REQUEST_EXTERNAL_IMAGE_STORAGE_PERMISSION = 12344;
     @VisibleForTesting
-    static final int REQUEST_CAMERA_IMAGE_PERMISSION = 2345;
+    static final int REQUEST_CAMERA_IMAGE_PERMISSION = 12345;
     @VisibleForTesting
-    static final int REQUEST_EXTERNAL_IMAGE_STORAGE_PERMISSION_TO_SAVE = 2346;
+    static final int REQUEST_EXTERNAL_IMAGE_STORAGE_PERMISSION_TO_SAVE = 12346;
     @VisibleForTesting
-    static final int REQUEST_CODE_CHOOSE_VIDEO_FROM_GALLERY = 2352;
+    static final int REQUEST_CODE_CHOOSE_VIDEO_FROM_GALLERY = 12352;
     @VisibleForTesting
-    static final int REQUEST_CODE_TAKE_VIDEO_WITH_CAMERA = 2353;
+    static final int REQUEST_CODE_TAKE_VIDEO_WITH_CAMERA = 12353;
     @VisibleForTesting
-    static final int REQUEST_EXTERNAL_VIDEO_STORAGE_PERMISSION = 2354;
+    static final int REQUEST_EXTERNAL_VIDEO_STORAGE_PERMISSION = 12354;
     @VisibleForTesting
-    static final int REQUEST_CAMERA_VIDEO_PERMISSION = 2355;
+    static final int REQUEST_CAMERA_VIDEO_PERMISSION = 12355;
 
     @VisibleForTesting
     final String fileProviderName;
